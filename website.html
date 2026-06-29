@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abbas Ibrahim Aliyu | Software Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">AA<span class="dot">.</span></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#tools" class="nav-link">Tools</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#values" class="nav-link">Values</a></li>
+      <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========== PAGE 1: HERO ========== -->
+  <section class="page" id="home">
+    <div class="hero-bg-overlay"></div>
+    <img src="me.jpg" alt="Abbas Ibrahim Aliyu" class="hero-bg-img" />
+    <div class="hero-content">
+      <p class="hero-eyebrow">Hello, I'm</p>
+      <h1 class="hero-name">Abbas Ibrahim<br /><span class="accent">Aliyu</span></h1>
+      <p class="hero-tagline">Software Engineering Student · Web Developer · Problem Solver</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">See My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>Open to</span>
+      <strong>Internships</strong>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 2: ABOUT ========== -->
+  <section class="page page-light" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-img-wrap">
+        <img src="about.jpg" alt="Abbas in her element" class="about-img" />
+        <div class="about-img-accent"></div>
+      </div>
+      <div class="about-text">
+        <p class="section-eyebrow">About Me</p>
+        <h2 class="section-title">Building things,<br />one line at a time.</h2>
+        <p class="about-para">
+          I'm Abbas Ibrahim Aliyu — a 200-level Software Engineering student at Northwest University, Kano, with a genuine obsession for how things work on the web. What started as curiosity became something I spend hours on: writing code, breaking things on purpose, and learning from every bug.
+        </p>
+        <p class="about-para">
+          I work mainly with HTML, CSS, JavaScript, and Node.js. I'm not just learning these things in a classroom — I'm actually using them. My portfolio is the first project I built entirely from scratch, and it's one I'm proud of.
+        </p>
+        <p class="about-para">
+          I completed the freeCodeCamp Responsive Web Design program, which pushed me to think about design and accessibility in ways that classes alone don't always cover. When I'm not coding, I'm probably reading about something tech-related or figuring out what to build next.
+        </p>
+        <div class="about-meta">
+          <div class="meta-item">
+            <span class="meta-label">Location</span>
+            <span class="meta-val">Kano, Nigeria</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Level</span>
+            <span class="meta-val">200 Level, SE</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Status</span>
+            <span class="meta-val">Available for Internships</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 3: SKILLS ========== -->
+  <section class="page page-dark" id="skills">
+    <div class="section-inner">
+      <p class="section-eyebrow light">What I Work With</p>
+      <h2 class="section-title light">Skills &amp; Strengths</h2>
+      <p class="skills-intro">
+        These are the technologies I use day to day. I'm not just familiar with them — I've built things with them.
+      </p>
+      <div class="skills-grid">
+
+        <div class="skill-card" data-skill="90">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" class="skill-svg"><rect x="3" y="3" width="8" height="8" rx="1.5" fill="#6C63FF"/><rect x="13" y="3" width="8" height="8" rx="1.5" fill="#6C63FF" opacity=".6"/><rect x="3" y="13" width="8" height="8" rx="1.5" fill="#6C63FF" opacity=".6"/><rect x="13" y="13" width="8" height="8" rx="1.5" fill="#6C63FF" opacity=".3"/></svg>
+          </div>
+          <h3 class="skill-name">Structure &amp; Markup</h3>
+          <p class="skill-desc">Writing clean, semantic HTML that browsers and screen readers both understand.</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:90%"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+
+        <div class="skill-card" data-skill="85">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" class="skill-svg"><circle cx="12" cy="12" r="9" stroke="#6C63FF" stroke-width="2"/><path d="M12 3C12 3 17 8 17 12C17 16 12 21 12 21" stroke="#6C63FF" stroke-width="2"/><path d="M12 3C12 3 7 8 7 12C7 16 12 21 12 21" stroke="#6C63FF" stroke-width="2" opacity=".5"/><line x1="3" y1="12" x2="21" y2="12" stroke="#6C63FF" stroke-width="2" opacity=".3"/></svg>
+          </div>
+          <h3 class="skill-name">Styling &amp; Layouts</h3>
+          <p class="skill-desc">Responsive, pixel-thoughtful CSS — Flexbox, Grid, animations, and mobile-first thinking.</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:85%"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card" data-skill="80">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" class="skill-svg"><polygon points="13,2 3,14 12,14 11,22 21,10 12,10" fill="#6C63FF" opacity=".8"/></svg>
+          </div>
+          <h3 class="skill-name">Interactivity &amp; Logic</h3>
+          <p class="skill-desc">JavaScript that makes pages come alive — DOM manipulation, events, fetch APIs, and more.</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:80%"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card" data-skill="65">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" class="skill-svg"><rect x="2" y="3" width="20" height="14" rx="2" stroke="#6C63FF" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="#6C63FF" stroke-width="2" stroke-linecap="round"/><path d="M7 8l3 3-3 3" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="13" y1="14" x2="17" y2="14" stroke="#6C63FF" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="skill-name">Server-Side Basics</h3>
+          <p class="skill-desc">Getting comfortable with Node.js — building simple servers and understanding backend logic.</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:65%"></div></div>
+          <span class="skill-pct">65%</span>
+        </div>
+
+        <div class="skill-card" data-skill="75">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" class="skill-svg"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="skill-name">Version Control</h3>
+          <p class="skill-desc">Using Git and GitHub to track work, collaborate, and keep code organized across projects.</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:75%"></div></div>
+          <span class="skill-pct">75%</span>
+        </div>
+
+        <div class="skill-card" data-skill="70">
+          <div class="skill-icon-wrap">
+            <svg viewBox="0 0 24 24" fill="none" class="skill-svg"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#6C63FF" stroke-width="2" stroke-linejoin="round"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="skill-name">Responsive Design</h3>
+          <p class="skill-desc">Designing for every screen size — from small phones to wide desktops — without breaking anything.</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" style="--pct:70%"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 4: PROJECTS ========== -->
+  <section class="page page-light" id="projects">
+    <div class="section-inner">
+      <p class="section-eyebrow">What I've Built</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="projects-intro">
+        I'm early in my journey, but I believe in starting. Every project I finish teaches me something I didn't know before.
+      </p>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-tag">Featured</div>
+          <div class="project-num">01</div>
+          <h3 class="project-title">Personal Portfolio</h3>
+          <p class="project-desc">
+            This site. Built from scratch with pure HTML, CSS, and JavaScript — no frameworks, no templates. Every section was a deliberate decision: layout, colour, interaction. It's the project that got me thinking about design as much as code.
+          </p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="proj-link">Live →</a>
+            <a href="https://github.com/abbas999" target="_blank" class="proj-link muted">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card coming">
+          <div class="project-num">02</div>
+          <h3 class="project-title">Next Project</h3>
+          <p class="project-desc">
+            Currently in the planning stage. I'm working on something that involves Node.js and a simple REST API. Details coming soon.
+          </p>
+          <div class="project-badge">In Progress</div>
+        </div>
+
+        <div class="project-card coming">
+          <div class="project-num">03</div>
+          <h3 class="project-title">Something New</h3>
+          <p class="project-desc">
+            Ideas are brewing. If you want to collaborate or have a suggestion for what to build, reach out — I'm always up for a challenge.
+          </p>
+          <div class="project-badge">Ideas Welcome</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 5: CERTIFICATIONS ========== -->
+  <section class="page page-dark" id="certifications">
+    <div class="section-inner">
+      <p class="section-eyebrow light">What I've Earned</p>
+      <h2 class="section-title light">Certifications</h2>
+      <p class="cert-intro">
+        Certificates matter less than what you learned to get them. Here's one I'm proud of — not just for finishing, but for what it actually taught me.
+      </p>
+      <div class="cert-showcase">
+        <div class="cert-card">
+          <div class="cert-img-wrap">
+            <img src="certificate.jpg" alt="freeCodeCamp Responsive Web Design Certificate" class="cert-img" />
+            <div class="cert-img-overlay">
+              <a href="https://www.freecodecamp.org/certification/abbas999/responsive-web-design" target="_blank" class="cert-verify-btn">Verify Certificate ↗</a>
+            </div>
+          </div>
+          <div class="cert-info">
+            <div class="cert-badge-wrap">
+              <div class="cert-badge">freeCodeCamp</div>
+            </div>
+            <h3 class="cert-title">Responsive Web Design</h3>
+            <p class="cert-body">
+              This certification is no joke. The curriculum covers everything from basic HTML structure to CSS Grid, Flexbox, and building responsive layouts that look good on any device. Over 300 hours of hands-on projects — not just videos and quizzes, but actual things you build and submit.
+            </p>
+            <p class="cert-body">
+              Getting through it meant understanding why things work the way they do on the web, not just copy-pasting code. That shift in thinking changed how I approach every project since.
+            </p>
+            <a href="https://www.freecodecamp.org/certification/abbas999/responsive-web-design" target="_blank" class="btn btn-primary cert-cta">View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 6: TOOLS & PLATFORMS ========== -->
+  <section class="page page-light" id="tools">
+    <div class="section-inner">
+      <p class="section-eyebrow">My Workspace</p>
+      <h2 class="section-title">Tools &amp; Platforms</h2>
+      <p class="tools-intro">
+        These are the platforms and tools that are part of how I actually work — where I write, deploy, host, and share.
+      </p>
+      <div class="tools-grid">
+
+        <div class="tool-card">
+          <div class="tool-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="tool-name">GitHub</h3>
+          <p class="tool-desc">Where all my code lives. I use it to version-control projects and document my progress over time.</p>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5z" stroke="#6C63FF" stroke-width="2" stroke-linejoin="round"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="tool-name">Vercel</h3>
+          <p class="tool-desc">My go-to for deploying frontend projects. Push to GitHub, and it's live in seconds. Genuinely magic.</p>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="3" stroke="#6C63FF" stroke-width="2"/><path d="M9 9h6M9 12h6M9 15h4" stroke="#6C63FF" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="tool-name">Netlify</h3>
+          <p class="tool-desc">Another solid deployment platform. I use it when I need quick hosting with form handling or custom domains.</p>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#6C63FF" stroke-width="2"/><path d="M12 6v6l4 2" stroke="#6C63FF" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="tool-name">Render</h3>
+          <p class="tool-desc">For when projects need a backend. Render makes deploying Node.js apps feel straightforward without the complexity.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 7: EDUCATION ========== -->
+  <section class="page page-dark" id="education">
+    <div class="section-inner">
+      <p class="section-eyebrow light">Where I'm Studying</p>
+      <h2 class="section-title light">Education</h2>
+      <div class="edu-timeline">
+
+        <div class="edu-item active">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <span class="edu-year">2023 – Present</span>
+            <h3 class="edu-degree">B.Sc. Software Engineering</h3>
+            <p class="edu-school">Northwest University, Kano</p>
+            <p class="edu-detail">
+              Currently in my second year, studying the fundamentals of software engineering — algorithms, data structures, object-oriented programming, and more. I try to apply everything I learn in class to real projects so it actually sticks.
+            </p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <span class="edu-year">2023</span>
+            <h3 class="edu-degree">Responsive Web Design</h3>
+            <p class="edu-school">freeCodeCamp (Online)</p>
+            <p class="edu-detail">
+              A self-directed program I completed alongside university. 300+ hours of project-based learning covering HTML, CSS, responsive layouts, and accessibility. This was where a lot of things clicked for me about how the web actually works.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 8: VALUES ========== -->
+  <section class="page page-light" id="values">
+    <div class="section-inner">
+      <p class="section-eyebrow">How I Think</p>
+      <h2 class="section-title">Values &amp; Approach</h2>
+      <p class="values-intro">
+        How I work matters as much as what I build. These are the things I keep coming back to, no matter what I'm working on.
+      </p>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">✦</div>
+          <h3 class="value-title">Curiosity First</h3>
+          <p class="value-desc">I ask "why" before "how". Understanding the reason behind something makes the how much cleaner. I'd rather spend an extra hour understanding a concept than copy-paste a solution I don't get.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">◈</div>
+          <h3 class="value-title">Ship, Then Improve</h3>
+          <p class="value-desc">Waiting for perfect is the enemy of done. I'd rather build something that works, put it out there, and iterate — than sit on an idea forever. My portfolio is proof of that.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">⬡</div>
+          <h3 class="value-title">Clean &amp; Readable</h3>
+          <p class="value-desc">Code is read more than it's written. I care about naming things properly, keeping functions focused, and writing code that a future version of me — or someone else — can actually follow.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">△</div>
+          <h3 class="value-title">Always Learning</h3>
+          <p class="value-desc">The tech world moves fast, and I like that about it. freeCodeCamp, documentation, YouTube, GitHub repos of people I admire — I'm always picking something up from somewhere.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 9: TESTIMONIALS ========== -->
+  <section class="page page-dark" id="testimonials">
+    <div class="section-inner">
+      <p class="section-eyebrow light">What Others Say</p>
+      <h2 class="section-title light">Testimonials</h2>
+      <p class="test-note">
+        I'm still building my track record, but here's what people who know my work have to say.
+      </p>
+      <div class="test-grid">
+
+        <div class="test-card">
+          <p class="test-quote">"Abbas picks things up fast and actually applies them. She doesn't just learn theory — she goes and builds something to prove it."</p>
+          <div class="test-author">
+            <div class="test-avatar">C</div>
+            <div>
+              <p class="test-name">Classmate</p>
+              <p class="test-role">Northwest University</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="test-card">
+          <p class="test-quote">"She's the kind of student who asks questions that make you think. Not just "how do I fix this" but "why does it work this way"."</p>
+          <div class="test-author">
+            <div class="test-avatar">P</div>
+            <div>
+              <p class="test-name">Peer Developer</p>
+              <p class="test-role">Study Group</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="test-card empty-test">
+          <p class="test-quote-empty">Worked with me? I'd love a short testimonial to add here. Reach out via email.</p>
+          <a href="mailto:abbasibrahimaliyu4@gmail.com" class="btn btn-outline small">Send a Testimonial</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PAGE 10: CONTACT ========== -->
+  <section class="page page-light" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="section-eyebrow">Let's Talk</p>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">
+        Whether you want to collaborate, have a question, or just want to say hi — my inbox is open. I do reply.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#6C63FF" stroke-width="2"/><polyline points="22,6 12,13 2,6" stroke="#6C63FF" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:abbasibrahimaliyu4@gmail.com" class="contact-val">abbasibrahimaliyu4@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l1.27-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" stroke="#6C63FF" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">Phone / WhatsApp</p>
+              <a href="tel:+2349026118504" class="contact-val">+234 902 611 8504</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#6C63FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <p class="contact-label">GitHub</p>
+              <a href="https://github.com/abbas999" target="_blank" class="contact-val">github.com/abbas999</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="What should I call you?" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="so I can reply" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-w" id="form-submit">Send Message</button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Designed &amp; built by <strong>Abbas Ibrahim Aliyu</strong> · 2025</p>
+      <p class="footer-sub">Northwest University Kano · Software Engineering</p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
